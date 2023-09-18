@@ -4,3 +4,5 @@ run: build
 	@./bin/api
 test:
 	@go test -v ./...
+mongodb:
+	@docker-compose up --build
